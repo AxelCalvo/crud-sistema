@@ -105,8 +105,8 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                     <input type="text" class="form-control mb-3" name="id_cliente" placeholder="Id_cliente">
                                     <input type="text" class="form-control mb-3" name="importe_total" placeholder="Total">
                                     <input type="submit" class="btn btn-primary">
-                                    <a href="../menu.php" class="btn btn-info">Regresar</a>
-                                    <a href="../logout.php" class="btn btn-danger">Salir</a>
+                                  
+                                    
                                 </form>
 
                         </div>

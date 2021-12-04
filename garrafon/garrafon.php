@@ -57,8 +57,8 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                     <input type="text" class="form-control mb-3" name="caducidad" placeholder="Dia/Mes/Año">
                                     <input type="text" class="form-control mb-3" name="cantidad" placeholder="Cantidad">
                                     <input type="submit" class="btn btn-primary">
-                                    <a href="../menu.php" class="btn btn-info">Regresar</a>
-                                    <a href="../logout.php" class="btn btn-danger">Salir</a>
+                                   
+                                   
                                 </form>
 
                         </div>

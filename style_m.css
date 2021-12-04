@@ -1,4 +1,10 @@
-
+body {
+	background-image: url("img/agua.jpg");
+	
+  background-repeat:no-repeat;
+  
+    margin-top: auto;
+}
 header {
 	width:90%;
 	max-width:1000px;

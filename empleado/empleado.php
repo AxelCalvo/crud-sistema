@@ -18,11 +18,29 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
         <title>Datos Empleado</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-       
+        <link href="../style_m.css?126567" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         
     </head>
     <body>
+    <nav>
+			<ul>
+			<li><a href="../menu.php">Inicio</a></li>
+			<li><a href="../venta/venta.php">Ventas</a></li>
+				<li><a href="empleado.php">Empleados</a></li>
+				<li><a href="../cliente/cliente.php">Clientes</a></li>
+				<li><a href="../garrafon/garrafon.php">Garrafones</a></li>
+				<li><a href="#">Bienvenido, <?php echo $_SESSION['nombre']; ?></a>
+				<div>
+
+					<ul>
+						<li class="titulo"><a href="../logout.php">Cerrar Sesión</a></li>
+					</ul>
+			
+				</div>
+            </li>
+			</ul>
+		</nav>
             <div class="container mt-5">
                     <div class="row"> 
                         

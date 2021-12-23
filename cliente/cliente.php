@@ -62,8 +62,7 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
 
                     
                                 
-                                    <a class="btn btn-warning" href="json.php" role="button">JSON</a>
-                                    <a class="btn btn-dark" href="xml.php" role="button">XML</a>
+                                   
                                 </form>
 
                         </div>
@@ -108,10 +107,13 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                         ?>
                                 </tbody>
                             </table>
+                            <a class="btn btn-warning btn-lg" href="json.php" role="button">JSON</a>
+                                    <a class="btn btn-dark btn-lg" href="xml.php" role="button">XML</a>
                         </div>
                     </div>  
             </div>
     </body>
+
 </html>
 
 <?php 

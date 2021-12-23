@@ -59,8 +59,11 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                     <input type="text" class="form-control mb-3" name="colonia" placeholder="Colonia">
                                     <input type="text" class="form-control mb-3" name="Municipio" placeholder="Municipio">
                                     <input type="submit" class="btn btn-primary">
+
+                    
                                 
-                                    
+                                    <a class="btn btn-warning" href="json.php" role="button">JSON</a>
+                                    <a class="btn btn-dark" href="xml.php" role="button">XML</a>
                                 </form>
 
                         </div>

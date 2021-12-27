@@ -95,6 +95,8 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                         ?>
                                 </tbody>
                             </table>
+                            <a class="btn btn-warning btn-lg" href="json.php" role="button">JSON</a>
+                                    <a class="btn btn-dark btn-lg" href="xml.php" role="button">XML</a>
                         </div>
                     </div>  
             </div>

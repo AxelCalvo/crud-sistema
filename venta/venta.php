@@ -141,9 +141,7 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                                 <th><?php  echo $row['cantidad']?></th>
                                                 <th><?php  echo $row['Id_Garrafon']?></th>
                                                 <th><?php  echo $row['Id_Empleado']?></th>  
-                                               
                                                 <th><?php  echo $row['Id_Cliente']?></th>
-                                                
                                                 <th><?php  echo $row['importe_total']?></th>   
                                                 <th><a href="actualizar.php?id=<?php echo $row['folio'] ?>" class="btn btn-info">Editar</a></th>
                                                 <th><a href="delete.php?id=<?php echo $row['folio'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
@@ -153,6 +151,8 @@ if (isset($_SESSION['Id_Usuario']) && isset($_SESSION['nombre'])) {
                                         ?>
                                 </tbody>
                             </table>
+                            <a class="btn btn-warning btn-lg" href="json.php" role="button">JSON</a>
+                                    <a class="btn btn-dark btn-lg" href="xml.php" role="button">XML</a>
                         </div>
                     </div>  
             </div>
